@@ -6,9 +6,9 @@ Rename the `Home_Sales_starter_code.ipynb` file as `Home_Sales.ipynb`.
 
 Import the necessary PySpark SQL functions for this assignment.
 
-Read the home_sales_revised.csv data in the starter code into a Spark DataFrame.
+Read the `home_sales_revised.csv` data in the starter code into a Spark DataFrame.
 
-Create a temporary table called home_sales.
+Create a temporary table called `home_sales`.
 
 Answer the following questions using SparkSQL:
 
@@ -20,7 +20,7 @@ Answer the following questions using SparkSQL:
   
   * What is the "view" rating for homes costing more than or equal to $350,000? Determine the run time for this query, and round off your answer to two decimal places.
 
-Cache your temporary table home_sales.
+Cache your temporary table `home_sales`.
 
 Check if your temporary table is cached.
 
@@ -32,8 +32,8 @@ Create a temporary table for the parquet data.
 
 Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. Determine the runtime and compare it to uncached runtime.
 
-Uncache the home_sales temporary table.
+Uncache the `home_sales` temporary table.
 
-Verify that the home_sales temporary table is uncached using PySpark.
+Verify that the `home_sales` temporary table is uncached using PySpark.
 
-Download your Home_Sales.ipynb file and upload it into your "Home_Sales" GitHub repository.
+Download your `Home_Sales.ipynb` file and upload it into your "Home_Sales" GitHub repository.
